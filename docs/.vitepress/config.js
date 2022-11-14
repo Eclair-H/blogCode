@@ -2,6 +2,8 @@ export default {
   lang: 'zn-ch',
   title: '一期一会',
   description: "ECLAIR'S BLOG.",
+  lastUpdated: true,
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     siteTitle: '一期一会',
     logo: '/avatar.png',
