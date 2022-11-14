@@ -3,7 +3,7 @@ export default {
   title: '一期一会',
   description: "ECLAIR'S BLOG.",
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/public/favicon.ico' }]],
   themeConfig: {
     siteTitle: '一期一会',
     logo: '/avatar.png',
