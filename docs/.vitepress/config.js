@@ -3,7 +3,7 @@ export default {
   title: '一期一会',
   description: "ECLAIR'S BLOG.",
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: '/public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     siteTitle: '一期一会',
     logo: '/avatar.png',
@@ -22,6 +22,7 @@ export default {
             { text: 'Style', link: '/technology/style' },
           ],
         },
+        { items: [{ text: 'tips', link: '/technology/tips' }] },
       ],
       '/record/': [
         {
