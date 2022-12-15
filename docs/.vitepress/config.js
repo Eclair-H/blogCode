@@ -20,6 +20,7 @@ export default {
             { text: 'RegularCheck', link: '/technology/regularCheck' },
             { text: 'DateFormat', link: '/technology/dateFormat' },
             { text: 'Style', link: '/technology/style' },
+            { text: 'TableMarquee', link: '/technology/tableMarquee' },
           ],
         },
         { items: [{ text: 'tips', link: '/technology/tips' }] },
@@ -38,9 +39,9 @@ export default {
       ],
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/Eclair-H' }],
-    // footer: {
-    //   message: 'Released under the MIT License.',
-    //   copyright: 'Copyright © 2019-present Evan You',
-    // },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-present Eclair Howe',
+    },
   },
 };

@@ -33,11 +33,10 @@
  * @author: ECLAIR
  */
 getQueryString(name) {
-  var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
-  var r = window.location.search.substr(1).match(reg);
-  // console.log(unescape(r[2]));
-  if (r != null) return unescape(r[2]);
-  return null;
+  let u = arguments[1] || window.location.href,
+        reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)'),
+        r = u.substr(u.indexOf('?') + 1).match(reg);
+      return r != null ? decodeURI(r[2]) : '';
 }
 ```
 
